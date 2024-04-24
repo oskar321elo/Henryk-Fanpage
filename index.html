@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henio Fanpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Witaj na Fanpage'u Henryka!</h1>
+
+    <div id="album" class="mediumText centerText">
+        Album ze zdjęciami:
+        <div id="zdjecie" class="center"></div>
+        <div id="wybierz">
+            <select id="select1" >
+                <option value="0">Klasyczny Henio</option>
+                <option value="1">Henio Myśliciel</option>
+                <option value="2">Henio Wstydzioch</option>
+                <option value="3">Henio Akceptacja</option>
+            </select>
+        </div>
+        <b class="centerText">Opis zdjęcia:</b><br>
+        <div id="opis" class="smallText leftText">
+            To zdjęcie przedstawia Henryka z poważną miną na twarzy. Jest ubrany w biało-niebiesko-czarną kratkowaną koszulę, prawdopodobnie podczas robienia zdjęcia siedział w swoim domu. Za Henrykiem można zauważyć białe firanki, pomarańczowe kurtyny i okno za którym widnieje noc.
+        </div>
+    </div>
+
+    <div id="wiezienie" class="center">
+        <div id="dialog" class="center mediumText centerText">
+            Witaj w mojej celi!<br>
+            <small>(Kliknij na mnie)</small>
+        </div>
+        <div id="zdjecieWiezienie" class="center"></div>
+    </div>
+
+    <div id="quiz">
+        <h1>SUPER QUIZ!</h1>
+        <div id="pytanie" class="mediumText marginLeft">
+            <b>Pytanie 1:</b>
+        </div>
+        <div id="tresc" class="smallText marginLeft">
+            W jakiej miejscowości mieszka Henryk?
+        </div>
+        <div id="quizZdjecie" class="center">
+
+        </div>
+        <div id="odpowiedz" class="smallText marginLeft">
+            <form>
+                <b>A</b>
+                <input type="radio" name="pytanie" value="0">Żyrzyn<br>
+                <b>B</b>
+                <input type="radio" name="pytanie" value="1">Kurów<br>
+                <b>C</b>
+                <input type="radio" name="pytanie" value="2">Borysów<br>
+            </form>
+            <button onclick="sprawdzOdp(0);">Dalej</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
